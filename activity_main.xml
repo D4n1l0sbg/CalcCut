@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de Corte"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Madeira Bruta:"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Largura mm"
+        android:id="@+id/txt_mbl">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Tamanho mm"
+        android:id="@+id/txt_mbt">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peça:"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Largura mm "
+        android:id="@+id/txt_pl">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Tamanho mm"
+        android:id="@+id/txt_pt">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Quantidade de total de peças"
+        android:id="@+id/txt_total_pc">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="0"
+        android:textSize="25sp"
+        android:id="@+id/txt_total">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Total"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_error">
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Calcular"
+        android:id="@+id/btn_calcular">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="limpar"
+        android:id="@+id/btn_clear">
+
+    </Button>
+
+
+</LinearLayout>
